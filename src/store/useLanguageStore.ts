@@ -186,7 +186,7 @@ const allTranslations = {
 };
 
 const useLanguageStore = create((set, get) => {
-  const initialLanguage = localStorage.getItem("appLanguage") || "es";
+  const initialLanguage = localStorage.getItem("appLanguage") || "en";
   console.log(
     "Zustand Store Initialized. Language from localStorage:",
     initialLanguage
