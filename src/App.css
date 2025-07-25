@@ -51,30 +51,3 @@
 .read-the-docs {
   color: #5f7676;
 }
-/* Para navegadores basados en Webkit (Chrome, Safari, Edge, Opera) */
-::-webkit-scrollbar {
-  width: 12px; /* Ancho de la barra de desplazamiento vertical */
-  height: 12px; /* Altura de la barra de desplazamiento horizontal */
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Color de fondo de la pista del scrollbar */
-  border-radius: 10px; /* Bordes redondeados para la pista */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #295eac; /* Color principal del scrollbar (el que se mueve) */
-  border-radius: 10px; /* Bordes redondeados para el 'pulgar' del scrollbar */
-  border: 3px solid #f1f1f1; /* Espacio alrededor del 'pulgar' */
-}
-
-/* Para Firefox */
-html {
-  scrollbar-width: thin; /* 'auto' | 'thin' | 'none' */
-  scrollbar-color: #295eac #f1f1f1; /* color del pulgar color de la pista */
-}
-
-/* Opcional: Estilo al pasar el ratón por encima del scrollbar */
-::-webkit-scrollbar-thumb:hover {
-  background-color: #1a4a8d; /* Un tono un poco más oscuro al pasar el ratón */
-}
